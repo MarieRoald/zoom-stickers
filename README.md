@@ -56,13 +56,13 @@ Luckily, Teachable Machine also provides an easy-to-use interface to create a tr
 3. Raise hand
 4. Heart
 
-<img src="screenshots/training_data.png">
+<img src="screenshots/training_data.png" width="400px">
 
 After creating the dataset, we trained the deep learning model by pressing the Train Model button. It takes some time, and you cannot switch tabs during the training. If you do, the JavaScript may not be allowed to run. When our model has finished training, we can test it out with the preview window. 
 
 After testing the model, we saw that it worked great! You can see an example where it correctly recognise the "heart" class below. To use this model with our Python script, we pressed *Export Model*, selected the Tensorflow tab and downloaded a Keras .h5 model.
 
-<img src="screenshots/preview.png">
+<img src="screenshots/preview.png" height="400px">
 
 ### Behind the scenes
 For the technically interested, Teachable Machine uses transfer learning with a MobileNet model that is trained with ImageNet. If you didn't understand what that means, don't worry, it's unnecessary to get this working. Just know that by using this tool, you get to use one of the most accurate yet efficient computer vision models that exist. It was actually invented in 2017!
