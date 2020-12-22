@@ -45,7 +45,7 @@ This code will first import OpenCV (which is called `cv2` in Python). Then, we r
 To train our deep learning model, we use [Teachable Machine](https://teachablemachine.withgoogle.com/), a free, online tool that makes training deep learning models easy! By using it, we can create computer vision models that can classify images. To teach such models to distinguish gestures, we first need to supply our computer with a *training set* — a dataset of images and corresponding labels. 
 
 
-|<img src="screenshots/teachable_machine.png">|
+|<img src="screenshots/teachable_machine.png" width="800px">|
 |:----:|
 | The Teachable Machine user interface |
 
