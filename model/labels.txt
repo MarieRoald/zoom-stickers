@@ -1,0 +1,4 @@
+0 Normal
+1 Heart
+2 Thumbs up
+3 Question
